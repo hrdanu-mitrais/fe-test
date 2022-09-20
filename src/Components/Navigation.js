@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import { ReactComponent as Logo } from '../assets/images/logo.svg';
-import { ReactComponent as MapPin } from '../assets/images/map-pin.svg';
+// import { ReactComponent as MapPin } from '../assets/images/map-pin.svg';
 
 export default function Navigation() {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
