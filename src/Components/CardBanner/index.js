@@ -7,7 +7,7 @@ export default function CardBanner(props) {
 
   return (
     <div className="card card-wrapper">
-      <div className="row g-md-1">
+      <div className="row w-100">
         <div className="col">
           <section className='d-flex align-items-start justify-content-center h-100 flex-column p-2'>
             <h5>{props.title}</h5>
