@@ -1,0 +1,24 @@
+:root {
+  --tab-nav-items: 3;
+  --tab-nav-slider-thickness: 3px;
+  --tab-nav-slider-color: #076c4f;
+  --tab-nav-transition-timing: 0.25s;
+  --tab-nav-current-item: 0;
+}
+
+.tabs {
+  position: relative;
+  display: flex;
+}
+
+.tabs > * {
+  flex-grow: 1;
+}
+
+.tabs > :global(*.active) {
+  color: #076c4f;
+}
+
+.tabs > :global(*.active) {
+  border-bottom: var(--tab-nav-slider-thickness) solid var(--tab-nav-slider-color);
+}

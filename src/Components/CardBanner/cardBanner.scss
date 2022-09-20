@@ -1,0 +1,24 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.card-wrapper {
+  max-width: 355px;
+  max-height: 355px;
+  transform: translateY(-100px);
+  margin: 0 auto;
+}
+
+.right-card-wrapper {
+  max-height: 332px;
+  height: 332px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  max-width: 332px;
+  width: 177px;
+}
+
+.right-card-content {
+  flex-shrink: 0;
+  width: 245px;
+}
