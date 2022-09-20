@@ -1,0 +1,46 @@
+html,
+body {
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel .carousel-indicators {
+  bottom: 50px;
+
+  button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #daf0e9;
+    border: 2px solid #00a175;
+  }
+
+  .active {
+    background-color: #e59cbd;
+    border-color: #e59cbd;
+  }
+}
+
+.carousel-inner {
+  overflow: visible;
+}
+
+.bg-filter-active {
+  background: #076c4f;
+  color: #fff;
+}
+
+.card {
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.14);
+  width: 330px;
+}
+
+.scroll-pill {
+  overflow-x: scroll;
+  padding: 16px 8px 0 8px;
+}
