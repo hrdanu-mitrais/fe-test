@@ -1,0 +1,13 @@
+$fmGreen: #076c4f;
+$fmPink: #e59cbd;
+$fmSecondaryPink: #fcebf1;
+$fmGreenLight: #f1faf7;
+
+$theme-colors: (
+  fmGreen: $fmGreen,
+  fmPink: $fmPink,
+  fmGreenLight: $fmGreenLight,
+  fmSecondaryPink: $fmSecondaryPink,
+);
+
+@import '~bootstrap/scss/bootstrap.scss';
